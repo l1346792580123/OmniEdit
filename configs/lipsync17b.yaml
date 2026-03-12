@@ -1,0 +1,47 @@
+task: lipsync
+mixed_precision: bf16
+wan_vae_path: Wan2.1-T2V-1.3B/Wan2.1_VAE.pth
+wan_text_path: Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth
+wan_tokenizer_path: Wan2.1-T2V-1.3B/google/umt5-xxl
+audio_encoder_path: ./whisper-large-v3
+checkpoint_path: [
+  'HuMo/HuMo-17B/humo-00001-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00002-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00003-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00004-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00005-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00006-of-00007.safetensors',
+  'HuMo/HuMo-17B/humo-00007-of-00007.safetensors'
+]
+
+num_frames: 97
+start_step: 6
+end_step: 16
+cfg_scale: 4.5
+
+video_paths: [examples/video1.mp4]
+
+audio_paths: [examples/audio1.wav]
+
+prompts: ['a woman is speaking.']
+
+
+model:
+  model_type: t2v
+  dim: 5120
+  eps: 1e-06
+  ffn_dim: 13824
+  freq_dim: 256
+  in_dim: 36
+  num_heads: 40
+  num_layers: 40
+  out_dim: 16
+  text_len: 512
+
+
+scheduler:
+  num_train_timesteps: 1000
+  num_inference_steps: 20
+  shift: 5
+  sigma_min: 0
+  extra_one_step: True

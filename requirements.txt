@@ -1,0 +1,13 @@
+numpy
+opencv-python
+tqdm
+imageio
+decord
+soundfile
+librosa
+safetensors
+einops
+diffusers
+transformers
+omegaconf
+huggingface_hub

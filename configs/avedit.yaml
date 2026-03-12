@@ -1,0 +1,34 @@
+task: avedit
+model_path: LTX-2/ltx-2-19b-dev.safetensors
+model_version: '2'
+gemma_root: gemma-3-12b-it-qat-q4_0-unquantized
+num_frames: 121
+start_step: 12
+end_step: 40
+cfg_scale: 10
+
+
+video_paths: [
+  'examples/happy.mp4', 
+  # 'examples/young.mp4', 
+  # 'examples/laugh.mp4', 
+  # 'examples/race_car.mp4', 
+  # 'examples/man.mp4', 
+  # 'examples/ori.mp4'
+]
+src_prompts: [
+  'A man facing the camera excitedly says: "Yes, I made it!"',
+  # 'A young man facing the camera and says: "Hello everyone, my name is Jack."',
+  # 'A little boy sits on the floor, laughing.',
+  # 'A race car is driving on the road.',
+  # 'A man facing the camera and says: "Hello everyone, my name is Jack."',
+  # 'A man facing the camera and says: "Hello everyone, my name is Jack."',
+]
+tar_prompts: [
+  'A man facing the camera sadly says: "Sorry, I fucked up!"',
+  # 'An old man facing the camera and says: "Hello everyone, my name is Tom."',
+  # 'A little boy sits on the floor, crying.',
+  # 'A police car is driving on the road.',
+  # 'A woman facing the camera and says: "Hello everyone, my name is Andy."',
+  # 'Donald Trump facing the camera and says: "Good morning, my name is Trump."',
+]
