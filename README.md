@@ -4,7 +4,33 @@
 
 ## Lip Synchronization Results
 
+
 <table>
+<tr>
+<td width="50%">
+
+### Input Video
+---
+https://github.com/user-attachments/assets/a4e18b53-961c-4e87-915b-eafe6a0f6e60
+
+---
+https://github.com/user-attachments/assets/d9b9be92-bd3d-49f9-8eba-83e597420c63
+
+</td>
+
+<td width="50%">
+
+### Lip synchronization
+--- 
+https://github.com/user-attachments/assets/e65bb114-b728-45fa-9e4c-91d0cdb3b687
+
+---
+https://github.com/user-attachments/assets/4dde6006-e1d7-408e-8077-4facad45346c
+</td>
+</tr>
+</table>
+
+<!-- <table>
 <tr>
 <th style="text-align:center;">Original Video</th>
 <th style="text-align:center;">Lip synchronization</th>
@@ -21,12 +47,62 @@
 <video src="https://github.com/user-attachments/assets/4dde6006-e1d7-408e-8077-4facad45346c" controls style="width:100%"></video>
 </td>
 </tr>
-</table>
+</table> -->
 
 
 ## Audio-Visual Editing Results
 
 <table>
+<tr>
+<td width="50%">
+
+### Input Video
+---
+https://github.com/user-attachments/assets/3494af3c-5161-4c40-a3c4-fb2651488ec6
+
+---
+https://github.com/user-attachments/assets/5740766c-e069-4b08-a80b-6de3b74aa36c
+
+---
+https://github.com/user-attachments/assets/ca2a17f2-51fe-4740-8e68-1f4836948ab1
+
+---
+https://github.com/user-attachments/assets/0c287953-19f9-48cd-bbb0-8e8db2b5c593
+
+---
+https://github.com/user-attachments/assets/fd71642f-6c07-4231-8d51-49b528706b23
+
+---
+https://github.com/user-attachments/assets/d7f8df48-9ec0-49b4-8cab-91d6f095ba09
+
+</td>
+
+<td width="50%">
+
+### Audio-visual Editing
+---
+https://github.com/user-attachments/assets/1d59ff39-7dab-47d6-a6c0-9fcebfcde1c5
+
+---
+https://github.com/user-attachments/assets/a278a471-5f7f-4f25-8193-485a57e319ae
+
+---
+https://github.com/user-attachments/assets/8bebada6-5f05-447c-9a61-9cde663a12a9
+
+---
+https://github.com/user-attachments/assets/d67ce375-d287-4013-a6ac-4015dc396b74
+
+---
+https://github.com/user-attachments/assets/2afc567f-0c0d-4137-ad7a-5be67855fa47
+
+---
+https://github.com/user-attachments/assets/9ce011ad-b24e-4bbf-bf9f-bd748f8b2235
+</td>
+</tr>
+</table>
+
+
+<!-- <table>
 <tr>
 <th style="text-align:center;">Original video</th>
 <th style="text-align:center;">Audio-visual Editing</th>
@@ -51,7 +127,7 @@
 <video src="https://github.com/user-attachments/assets/9ce011ad-b24e-4bbf-bf9f-bd748f8b2235" controls style="width:100%"></video>
 </td>
 </tr>
-</table>
+</table> -->
 
 ### Installation
 ```
